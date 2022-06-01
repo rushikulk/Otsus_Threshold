@@ -1,3 +1,6 @@
+var image = ee.Image("users/WaterEarthEngin/mNDWI_20160121"),
+    polygon = ee.FeatureCollection("users/WaterEarthEngin/Pune_Polygon_1");
+    
 // Load the image from the archive.
 //var image = ee.Image('mNDWI_20160121')
 // Define visualization parameters in an object literal.
